@@ -73,10 +73,10 @@
             </p>
           
 
-            <nux-link
+            <nuxt-link
               to="/pyt/order"
               class="learn-more btn btn-outline-light px-5 py-2"
-              >VIEW INSTALL</nux-link
+              >VIEW INSTALL</nuxt-link
             >
           </div>
         </div>
