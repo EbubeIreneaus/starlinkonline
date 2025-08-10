@@ -206,7 +206,7 @@ useHead({
 <style scoped>
 .head-section {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-image: url("~/assets/images/bg-main.webp");
   background-size: cover;
 }
@@ -216,7 +216,6 @@ useHead({
   width: 100%;
   height: calc(100vh - 110px);
   top: 110px;
-  color: var(--text-color);
 }
 
 .cont-text {
@@ -228,17 +227,12 @@ useHead({
 
 .head-sec-cont .order-btn {
   bottom: 5px;
-
   width: 100%;
 }
 
 .head-sec-cont .order-btn button {
   padding: 20px 100px;
   margin: auto;
-}
-
-div a {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .main-bg-sec-2 {

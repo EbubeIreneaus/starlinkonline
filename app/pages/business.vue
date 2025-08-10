@@ -92,7 +92,7 @@
           <img
             src="~/assets/images/business-img-1.webp"
             alt="business image 1"
-            class="img-fluid mx-auto object-cover",
+            class="img-fluid mx-auto object-cover"
             loading="lazy"
             width="600"
             height="700"
