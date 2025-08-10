@@ -21,6 +21,7 @@
           type="button"
           class="ring-2 p-3 rounded-xl bg-white"
           @click="show_sidebar = true"
+          aria-label="open sidebar"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +48,7 @@
             type="button"
             class="p-4"
             @click="show_sidebar = false"
-            aria-label="Navbar"
+            aria-label="cloase sidebar"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
