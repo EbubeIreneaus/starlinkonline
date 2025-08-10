@@ -2,9 +2,13 @@
   <div class="bg-black text-white overflow-x-hidden">
     <header>
       <nav class="flex justify-between">
-        <div class="mt-1 font-extrabold font-arial text-xl uppercase">StarLink</div>
+        <div class="mt-1 font-extrabold font-arial text-xl uppercase">
+          StarLink
+        </div>
 
-        <ul class="hidden lg:flex items-center justify-between *:text-lg *:!font-playfair *:font-semibold">
+        <ul
+          class="hidden lg:flex items-center justify-between *:text-lg *:!font-playfair *:font-semibold"
+        >
           <li><nuxt-link to="/">Residential</nuxt-link></li>
           <li><nuxt-link to="/business">Business</nuxt-link></li>
           <li><nuxt-link to="/roam">Roam</nuxt-link></li>
@@ -39,7 +43,12 @@
         tabindex="-1"
       >
         <div class="offcanvas-header mb-4">
-          <button type="button" class="p-4" @click="show_sidebar = false">
+          <button
+            type="button"
+            class="p-4"
+            @click="show_sidebar = false"
+            aria-label="Navbar"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -86,15 +95,13 @@
         <div class="offcanvas-body">
           <div>
             <ul class="nav-menu-mobile *:text-lg *:font-arial">
-              <nuxt-link to="/"><li>Residential</li></nuxt-link>
-              <nuxt-link to="/roam"><li>Roam</li></nuxt-link>
-              <nuxt-link to="/business"><li>Business</li></nuxt-link>
-              <nuxt-link to="/service"><li>Service</li></nuxt-link>
-              <nuxt-link to="/mobility"><li>Mobility</li></nuxt-link>
-              <nuxt-link to="/maritime"><li>Maritime</li></nuxt-link>
-              <nuxt-link to="/aviation"><li>Aviation</li></nuxt-link>
-
-              <nuxt-link to="/contact"><li>Support</li></nuxt-link>
+              <li><nuxt-link to="/">Residential</nuxt-link></li>
+              <li><nuxt-link to="/business">Business</nuxt-link></li>
+              <li><nuxt-link to="/roam">Roam</nuxt-link></li>
+              <li><nuxt-link to="/mobility">Mobility</nuxt-link></li>
+              <li><nuxt-link to="/aviation">Aviation</nuxt-link></li>
+              <li><nuxt-link to="/maritime">Maritime</nuxt-link></li>
+              <li><nuxt-link to="/contact">Support</nuxt-link></li>
             </ul>
           </div>
         </div>
@@ -124,22 +131,24 @@
 const show_sidebar = ref(false);
 
 useSeoMeta({
-  title: 'Starlink Online Shopping & Installation',
-  description: 'Buy Starlink today – get unlimited browsing and downloads up to 300 Mb/s, all from the comfort of your home. Worldwide delivery available.',
-  ogDescription:'Buy Starlink today – get unlimited browsing and downloads up to 300 Mb/s, all from the comfort of your home. Worldwide delivery available.',
-  ogTitle: 'Starlink Online',
-  ogUrl: 'https://starlinkonline.vercel.app',
-  ogImage: 'https://starlinkonline.vercel.app/og-image.jpg',
-  twitterTitle: 'Starlink Online',
-  twitterDescription: 'Buy Starlink today – get unlimited browsing and downloads up to 300 Mb/s, all from the comfort of your home. Worldwide delivery available.',
-  twitterImage: 'https://starlinkonline.vercel.app/og-image.jpg',
-  ogSiteName: 'Starlink Online',
-  twitterCreator: '@EbubeIreneaus'
-})
+  title: "Starlink Online Shopping & Installation",
+  description:
+    "Buy Starlink today – get unlimited browsing and downloads up to 300 Mb/s, all from the comfort of your home. Worldwide delivery available.",
+  ogDescription:
+    "Buy Starlink today – get unlimited browsing and downloads up to 300 Mb/s, all from the comfort of your home. Worldwide delivery available.",
+  ogTitle: "Starlink Online",
+  ogUrl: "https://starlinkonline.vercel.app",
+  ogImage: "https://starlinkonline.vercel.app/og-image.jpg",
+  twitterTitle: "Starlink Online",
+  twitterDescription:
+    "Buy Starlink today – get unlimited browsing and downloads up to 300 Mb/s, all from the comfort of your home. Worldwide delivery available.",
+  twitterImage: "https://starlinkonline.vercel.app/og-image.jpg",
+  ogSiteName: "Starlink Online",
+  twitterCreator: "@EbubeIreneaus",
+});
 </script>
 
 <style scoped>
-
 a {
   text-decoration: none;
 }

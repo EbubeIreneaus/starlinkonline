@@ -115,7 +115,7 @@
             </p>
           
 
-            <nuxt-link to="" class="learn-more btn btn-outline-light px-5 py-2"
+            <nuxt-link to="/pyt/order" class="learn-more btn btn-outline-light px-5 py-2"
               >VIEW INSTALL</nuxt-link
             >
           </div>
