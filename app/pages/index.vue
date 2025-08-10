@@ -75,7 +75,7 @@
 
             <nuxt-link
               to="/pyt/order"
-              class="learn-more btn btn-outline-light px-5 py-2"
+              class="px-5 py-2"
               >VIEW INSTALL</nuxt-link
             >
           </div>
@@ -207,7 +207,7 @@ useHead({
 .head-section {
   width: 100%;
   height: 100vh;
-  background-image: url("~/assets/images/bg-main.jpg");
+  background-image: url("~/assets/images/bg-main.webp");
   background-size: cover;
 }
 
